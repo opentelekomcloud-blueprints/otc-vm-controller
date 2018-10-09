@@ -3,6 +3,13 @@
 ![Python requirements.txt missing](https://img.shields.io/badge/Python_requirements.txt-missing-red.svg?longCache=true&style=plastic&logo=Python&logoColor=white)
 ![OTC IAM API v3](https://img.shields.io/badge/OTC_IAM_API-3-green.svg?longCache=true&style=plastic)
 ![OTC ECS API v2](https://img.shields.io/badge/OTC_ECS_API-2-green.svg?longCache=true&style=plastic)
+![GNU General Public License v3](https://img.shields.io/badge/license-GPL_v3-blue.svg?longCache=true&style=plastic&logo=GNU&logoColor=white)
+
+![issues](https://img.shields.io/github/issues-raw/OpenTelekomCloud/OTC-VM-controller.svg)
+![pr](https://img.shields.io/github/issues-pr-raw/OpenTelekomCloud/OTC-VM-controller.svg)
+![size](https://img.shields.io/github/languages/code-size/OpenTelekomCloud/OTC-VM-controller.svg)
+![tag](https://img.shields.io/github/tag/OpenTelekomCloud/OTC-VM-controller.svg)
+
 ## why Controller and not Controler?
 We want to show that controlling the VMs can be as easy as playing a video game.
 
