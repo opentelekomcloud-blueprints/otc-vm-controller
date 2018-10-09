@@ -5,7 +5,7 @@ import sys
 import gnupg
 from exitstatus import ExitStatus
 
-mail = "archiv-admin@t-systems.com"
+mail = "somemail@server.com"
 passwd = "HelloWorld"
 inputfile = "config.yml"
 outputfile = "config.gpgyml"

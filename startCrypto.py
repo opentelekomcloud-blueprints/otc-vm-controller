@@ -3,7 +3,7 @@ import os
 
 import gnupg
 
-mail = "archiv-admin@t-systems.com"
+mail = "somemail@server.com"
 passwd = "HelloWorld"
 
 
