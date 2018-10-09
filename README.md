@@ -1,4 +1,8 @@
 # Readme for the OTC-VM-controller 🎮
+![Python 3.7 works](https://img.shields.io/badge/Python-3.7-green.svg?longCache=true&style=plastic&logo=Python&logoColor=white)
+![Python requirements.txt missing](https://img.shields.io/badge/Python_requirements.txt-missing-red.svg?longCache=true&style=plastic&logo=Python&logoColor=white)
+![OTC IAM API v3](https://img.shields.io/badge/OTC_IAM_API-3-green.svg?longCache=true&style=plastic)
+![OTC ECS API v2](https://img.shields.io/badge/OTC_ECS_API-2-green.svg?longCache=true&style=plastic)
 ## why Controller and not Controler?
 We want to show that controlling the VMs can be as easy as playing a video game.
 
