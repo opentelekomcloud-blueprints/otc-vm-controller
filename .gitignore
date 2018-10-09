@@ -1,0 +1,10 @@
+
+\.crypt/
+
+venv/
+
+config\.gpgyml
+
+config\.yml
+
+debug\.log
