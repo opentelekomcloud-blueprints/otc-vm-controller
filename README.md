@@ -1,5 +1,5 @@
 # Readme for the OTC-VM-controller 🎮
-![Python 3.7 works](https://img.shields.io/badge/Python-3.7-green.svg?longCache=true&style=plastic&logo=Python&logoColor=white)
+![Python 3.7 and 3.5 works](https://img.shields.io/badge/Python-3.7|3.5-green.svg?longCache=true&style=plastic&logo=Python&logoColor=white)
 ![Python requirements.txt missing](https://img.shields.io/badge/Python_requirements.txt-missing-red.svg?longCache=true&style=plastic&logo=Python&logoColor=white)
 ![OTC IAM API v3](https://img.shields.io/badge/OTC_IAM_API-3-green.svg?longCache=true&style=plastic)
 ![OTC ECS API v2](https://img.shields.io/badge/OTC_ECS_API-2-green.svg?longCache=true&style=plastic)
@@ -62,4 +62,4 @@ This software only works with an encrypted config, which makes troubleshooting d
 ## wH4t ñ33d$ t0 b3 !mpr0v3d !ñ tH!$ t00l?
 - In the source code comments and hints must be added and the readability could be improved.
 - Source code parts occur very often, this could be improved by the use of functions.
-- It has not yet been tested which Python versions except 3.7 are supported.
+- It has not yet been tested which Python versions except 3.7 and 3.5 are supported.
