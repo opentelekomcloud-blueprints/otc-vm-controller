@@ -1,6 +1,6 @@
 # Readme for the OTC-VM-controller 🎮
 ![Python 3.7 and 3.5 works](https://img.shields.io/badge/Python-3.7|3.5-green.svg?longCache=true&style=plastic&logo=Python&logoColor=white)
-![David](https://img.shields.io/david/OpenTelekomCloud/OTC-VM-controller.svg?style=plastic)
+![David](https://david-dm.org/OpenTelekomCloud/OTC-VM-controller.svg)
 ![OTC IAM API v3](https://img.shields.io/badge/OTC_IAM_API-3-green.svg?longCache=true&style=plastic)
 ![OTC ECS API v2](https://img.shields.io/badge/OTC_ECS_API-2-green.svg?longCache=true&style=plastic)
 ![GNU General Public License v3](https://img.shields.io/badge/license-GPL_v3-blue.svg?longCache=true&style=plastic&logo=GNU&logoColor=white)
