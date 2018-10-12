@@ -9,6 +9,7 @@ import urllib.request
 import gnupg
 import yaml
 from exitstatus import ExitStatus
+from logging.handlers import RotatingFileHandler
 
 # create logging
 logger = logging.getLogger("OTCC")
