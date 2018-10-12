@@ -14,7 +14,8 @@ from logging.handlers import RotatingFileHandler
 # create logging
 logger = logging.getLogger("OTCC")
 logger.setLevel(logging.DEBUG)
-fh = logging.FileHandler('debug.log')
+
+fh = logging.RotatingFileHandler('debug.log',maxBytes=20971520,backupCount=5)
 fh.setLevel(logging.DEBUG)
 ch = logging.StreamHandler()
 ch.setLevel(logging.ERROR)
