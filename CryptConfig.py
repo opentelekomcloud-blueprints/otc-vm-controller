@@ -13,7 +13,7 @@ outputfile = "config.gpgyml"
 
 def main():
     print(os.path.join(os.getcwd(), ".crypt"))
-    gpg = gnupg.GPG(gnupghome=os.path.join(os.getcwd(), ".crypt"), use_agent=False, verbose=True)
+    gpg = gnupg.GPG(gnupghome=os.path.join(os.getcwd(), ".crypt"), use_agent=False, verbose=False)
     gpg.encoding = "utf-8"
 
     if os.path.isfile(inputfile):
