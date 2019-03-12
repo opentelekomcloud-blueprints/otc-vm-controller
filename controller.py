@@ -15,7 +15,7 @@ from logging.handlers import RotatingFileHandler
 logger = logging.getLogger("OTCC")
 logger.setLevel(logging.DEBUG)
 
-fh = RotatingFileHandler('debug.log',maxBytes=20971520,backupCount=5)
+fh = RotatingFileHandler(os.path.join(os.path.dirname(os.path.realpath(__file__)),'debug.log'),maxBytes=20971520,backupCount=5)
 fh.setLevel(logging.DEBUG)
 ch = logging.StreamHandler()
 ch.setLevel(logging.ERROR)
@@ -31,15 +31,15 @@ def loadConfig(file: str, cfgpasswd: str) -> yaml:
 
     :rtype: yaml
     """
-    gpg = gnupg.GPG(gnupghome=os.path.join(os.getcwd(), ".crypt"), use_agent=False, verbose=False)
+    gpg = gnupg.GPG(gnupghome=os.path.join(os.path.dirname(os.path.realpath(__file__)), ".crypt"), use_agent=False, verbose=False)
     gpg.encoding = "utf-8"
     CfgLoaderLogger = logging.getLogger("CFGL")
     CfgLoaderLogger.setLevel(logging.ERROR)
     CfgLoaderLogger.addHandler(fh)
     CfgLoaderLogger.addHandler(ch)
-    if os.path.isfile("config.gpgyml"):
+    if os.path.isfile(os.path.join(os.path.dirname(os.path.realpath(__file__)),"config.gpgyml")):
         with tempfile.SpooledTemporaryFile(encoding="utf-8", mode="rw") as tmp:
-            with open("config.gpgyml", "rb") as configCry:
+            with open(os.path.join(os.path.dirname(os.path.realpath(__file__)),"config.gpgyml"), "rb") as configCry:
                 data = str(gpg.decrypt_file(configCry, passphrase=cfgpasswd))
             tmp.write(data)
             tmp.seek(0)
