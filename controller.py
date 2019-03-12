@@ -196,7 +196,7 @@ def StartServers(OTClist, WishList, token):
 def main(argv):
 
     logger.info('start loding the main config file')
-    maincfg = loadConfig("config.gpgyml", argv[0])
+    maincfg = loadConfig(os.path.join(os.path.dirname(os.path.realpath(__file__)),"config.gpgyml"), argv[0])
     logger.info('done loding the main config file')
 
     if maincfg["steering"]["getAuthToken"]:
